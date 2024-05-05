@@ -1,0 +1,18 @@
+---
+props:
+    style:
+        class: "btn-{}"
+    active:
+        class: "btn-active"
+    outline:
+        class: "btn-outline"
+    size:
+        class: "btn-{}"
+    wide:
+        class: "btn-wide"
+    glass:
+        class: "glass"
+    icon:
+        innerHTML: {"prepend": "<i class=\"bi-{}\"></i>"}
+---
+<button class="btn"><slot></slot></button>
